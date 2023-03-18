@@ -1,0 +1,9 @@
+@import url("reset.css");
+
+:root {
+	--background-main: #fff;
+	--background-sec: #fcf8ff;
+	--primary: #24053e;
+	--asset: #44ffa1;
+	--text-color: #584d62;
+}
