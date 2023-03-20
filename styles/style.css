@@ -1,9 +1,35 @@
 @import url("reset.css");
 
+@font-face {
+	font-family: fraunces;
+	src: url("/assets/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+@font-face {
+	font-family: manrope;
+	src: url("/assets/fonts/Manrope-VariableFont_wght.ttf");
+}
+
 :root {
 	--background-main: #fff;
 	--background-sec: #fcf8ff;
 	--primary: #24053e;
 	--asset: #44ffa1;
 	--text-color: #584d62;
+	--font-heading: fraunces, serif;
+	--font-body: manrope, sans-serif;
+}
+
+body {
+	background: var(--background-sec);
+	display: grid;
+	place-items: center;
+}
+
+.topo {
+	background: var(--primary);
+	height: 30vh;
+	width: 120%;
+	border-bottom-left-radius: 50% 30%;
+	border-bottom-right-radius: 50% 30%;
 }
