@@ -26,10 +26,26 @@ body {
 	place-items: center;
 }
 
-.topo {
+.top {
 	background: var(--primary);
 	height: 30vh;
-	width: 120%;
-	border-bottom-left-radius: 50% 30%;
-	border-bottom-right-radius: 50% 30%;
+	width: 100%;
+	border-bottom-left-radius: 50% 10%;
+	border-bottom-right-radius: 50% 10%;
+
+	/* position: relative; */
 }
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-hero {
+	text-align: center;
+}
+
+/* .page-hero__image {
+	width: 320px;
+} */
