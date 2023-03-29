@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: fraunces;
-	src: url("/assets/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+	src: url("/assets/fonts/FRAUNCES_144PT-SEMIBOLD.TTF");
 }
 
 @font-face {
@@ -28,12 +28,10 @@ body {
 
 .top {
 	background: var(--primary);
-	height: 30vh;
 	width: 100%;
-	border-bottom-left-radius: 50% 10%;
-	border-bottom-right-radius: 50% 10%;
-
-	/* position: relative; */
+	border-bottom-left-radius: 70% 10%;
+	border-bottom-right-radius: 70% 10%;
+	padding: 2rem 1rem 0;
 }
 
 .page-header {
@@ -42,10 +40,47 @@ body {
 	align-items: center;
 }
 
-.page-hero {
-	text-align: center;
+.page-header__link {
+	font-family: var(--font-body);
+	font-size: 1rem;
+	font-weight: bold;
+	color: var(--background-main);
+	line-height: 2;
+	border-bottom: #44ffa1 solid 3px;
 }
 
-/* .page-hero__image {
+.page-hero {
+	text-align: center;
+	margin-top: 4rem;
+	display: grid;
+	gap: 2.5rem;
+}
+
+.page-hero__image {
 	width: 320px;
-} */
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+
+.page-hero__title {
+	font-family: var(--font-heading);
+	font-size: 3.125rem;
+	font-weight: 600;
+	line-height: 1.15;
+	color: var(--background-main);
+	width: 90%;
+}
+
+.title__underlined {
+	border-bottom: #44ffa1 solid 3px;
+}
+
+.button {
+	padding: 0.75rem 1.5rem;
+	background-color: var(--asset);
+	justify-self: center;
+	font-family: var(--font-body);
+	font-weight: bold;
+	color: var(--primary);
+}
