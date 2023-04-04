@@ -54,6 +54,7 @@ body {
 	margin-top: 4rem;
 	display: grid;
 	gap: 2.5rem;
+	justify-items: center;
 }
 
 .page-hero__image {
@@ -83,4 +84,44 @@ body {
 	font-family: var(--font-body);
 	font-weight: bold;
 	color: var(--primary);
+}
+
+.page-content {
+	padding: 9rem 1rem 10rem;
+	text-align: center;
+	display: grid;
+	gap: 2.5rem;
+}
+
+.page-content__item {
+	display: grid;
+	justify-items: center;
+	gap: 1rem;
+}
+
+.page-content__number {
+	font-family: var(--font-heading);
+	font-size: 1.25rem;
+	line-height: 1.8;
+	font-weight: 600;
+	color: var(--primary);
+	border: 1px solid var(--text-color);
+	border-radius: 50%;
+	padding: 3px 16px;
+	align-self: center;
+	margin-bottom: 0.5rem;
+}
+
+.page-content__title {
+	font-family: var(--font-heading);
+	font-size: 1.75rem;
+	line-height: 1.28;
+	font-weight: 600;
+	color: var(--primary);
+}
+
+.page-content__text {
+	font-family: var(--font-body);
+	line-height: 1.75;
+	color: var(--text-color);
 }
